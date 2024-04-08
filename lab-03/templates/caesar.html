@@ -15,11 +15,13 @@
                         <div class="mb-3"> 
                             <label class="form-label">Plain text:</label> 
                             <input type="text" class="form-control" name="inputPlainText" placeholder="Input Plain Text" required autofocus/> 
+                            <small class="form-text text-muted">Enter the text you want to encrypt.</small>
                         </div> 
                         <div class="mb-3"> 
                             <label class="form-label">Key:</label>
                             <input type="number" class="form-control" name="inputKeyPlain" placeholder="Input Key" required/> 
-                                    </div> 
+                            <small class="form-text text-muted">Enter the encryption key.</small>     
+                        </div> 
                                     <button type="submit" class="btn btn-primary">Encrypt</button> 
                                 </form> 
                                 </td> 
@@ -31,16 +33,19 @@
                         <div class="mb-3"> 
                             <label class="form-label">Cipher text:</label> 
                             <input type="text" class="form-control" name="inputCipherText" placeholder="Input Cipher Text" required/> 
+                            <small class="form-text text-muted">Enter the text you want to decrypt.</small>
                         </div> 
                         <div class="mb-3"> 
                             <label class="form-label">Key:</label> 
                             <input type="number" class="form-control" name="inputKeyCipher" placeholder="Input Key" required/> 
+                            <small class="form-text text-muted">Enter the decryption key.</small>
                         </div> 
                         <button type="submit" class="btn btn-success">Decrypt</button> 
                     </form> 
                 </td> 
             </tr>   
         </table> 
+        <a href="/" class="btn btn-secondary">Back to Home</a>
     </div> 
 </body> 
 </html> 
